@@ -4,14 +4,25 @@
     box-sizing: border-box;
 }
 
+
+.inter-font{
+  font-family: "Inter", sans-serif;
+
+}
+
 /* shared css */
 
 .btn{
-    padding: 12px 16px;
+    padding: 12px 16px; 
     background-color: #30B868;
     color: white;
+    font-size: 16px;          
     border: none;
     border-radius: 5px;
+}
+
+.color-green{
+    color: #30B868;
 }
 
 /* nav section  */
@@ -41,4 +52,51 @@ nav ul a{
 nav img{
     height: 60px;
     width: 138px;
+}
+/* banner section */
+#banner-parent{
+    background-image: url(./assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 674px;
+    padding:0 100px;
+}
+
+#banner-parent .banner-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding-top: 115px;
+}
+
+.banner-info h1{
+    font-size: 72px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+
+.banner-info p{
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.banner-btn{
+    display: flex;
+    margin-top: 16px;
+    gap: 16px;
+}
+
+.banner-btn .btn2{
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.banner-info .btn3{
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 16px;
 }
