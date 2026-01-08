@@ -80,7 +80,7 @@ nav img{
 .banner-info p{
     font-size: 18px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: #cec2c2;
     text-align: center;
 }
 
@@ -99,4 +99,48 @@ nav img{
     padding: 8px 12px;
     border-radius: 20px;
     font-size: 16px;
+}
+/* notes section */
+
+#notes-parent{
+    padding: 50px 100px 0;
+}
+
+#notes-parent .notes-heading{
+    text-align: center;
+    margin-bottom: 44px;
+}
+
+.notes-heading h2{
+    font-size: 50px;
+    margin-bottom: 16px;
+}
+
+.notes-heading p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
+
+#notes-parent .notes-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.notes-info .notes-card{
+    width: 322px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 16px;
+}
+
+.icon-img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: #F95555;
+    padding: 9px;
 }
