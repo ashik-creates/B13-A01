@@ -159,3 +159,17 @@ nav img{
     line-height: 20px;
     color: #627382;
 }
+/* brain section */
+#brain-parent{
+    padding: 100px;
+}
+
+#brain-parent .brain-info{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.brain-info ul{
+    list-style: none;
+}
