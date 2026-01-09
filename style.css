@@ -29,6 +29,12 @@
     cursor: pointer;
 }
 
+.btn:hover{
+    background-color:rgb(15, 185, 29);
+}
+
+
+
 .color-green{
     color: #30B868;
 }
@@ -60,7 +66,7 @@ nav ul a{
 
 /* banner section */
 #banner-parent{
-    background-image: url(./assets/hero-bg.png);
+    background: url(./assets/hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 674px;
@@ -100,11 +106,20 @@ nav ul a{
     border: 1px solid white;
 }
 
+.banner-btn .btn2:hover{
+    background-color: #001931;
+}
+
 .banner-info .btn3{
     padding: 8px 12px;
     border-radius: 20px;
     font-size: 16px;
     border: none;
+    cursor: pointer;
+}
+
+.banner-info .btn3:hover{
+    background-color: #dfd7d7;
 }
 /* notes section */
 
