@@ -11,6 +11,10 @@
 }
 
 /* shared css */
+.logo-style{
+    height: 60px;
+    width: 138px;
+}
 
 .btn{
     padding: 12px 16px; 
@@ -53,10 +57,7 @@ nav ul a{
     font-size: 16px;
 }
 
-nav img{
-    height: 60px;
-    width: 138px;
-}
+
 /* banner section */
 #banner-parent{
     background-image: url(./assets/hero-bg.png);
@@ -130,7 +131,7 @@ nav img{
 #notes-parent .notes-info{
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap: 25px;
 }
 
 .notes-info .notes-card{
@@ -201,6 +202,7 @@ nav img{
     color: #30B868;
 }
 
+
 .brain-info ul{
     list-style: none;
     margin-top: 24px;
@@ -238,4 +240,31 @@ nav img{
 .ready-info h2{
     font-size: 40px;
     font-weight: 700;
+}
+
+/* footer section */
+footer{
+    padding: 100px 100px 30px;
+    background-color: #001931;
+}
+
+footer .footer-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 80px;
+    color: white;
+}
+
+.footer-logo .social-links{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: center;
+}
+
+footer .footer-rights{
+    text-align: center;
+    color: #FAFAFA;
+    margin-top: 30px;
 }
