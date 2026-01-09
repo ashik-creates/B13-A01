@@ -103,6 +103,7 @@ nav img{
     padding: 8px 12px;
     border-radius: 20px;
     font-size: 16px;
+    border: none;
 }
 /* notes section */
 
@@ -174,6 +175,10 @@ nav img{
     gap: 60px;
 }
 
+.brain-info img{
+    border-radius: 12px;
+
+}
 
 .brain-info .brain-text{
     display: flex;
@@ -211,7 +216,6 @@ nav img{
 /* challenges section */
 #ready-parent{
     text-align: center;
-    padding-bottom: 120px;
 }
 
 #ready-parent .ready-info{
@@ -219,6 +223,10 @@ nav img{
     flex-direction: column;
     align-items: center;
     gap: 16px;
+    margin: 0 100px 100px;
+    padding: 80px 0;
+    background-color: #F7F6F2;
+    border-radius: 12px;
 }
 
 .ready-info p{
